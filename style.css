@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blueviolet;
+  color: white;
+}
+.container {
+  width: 600px;
+  background-color: rgba(84, 30, 134, 0.952);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  box-shadow: 0rem 1rem 1.5rem rgba(91, 47, 194, 0.4);
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+.container h2 {
+  background-color: rgba(40, 18, 61, 0.952);
+  text-align: center;
+  padding: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+.container p {
+  text-align: center;
+}
+.container h3 {
+  text-align: center;
+  padding: 0.7rem;
+  margin: 1.5rem;
+}
+.score {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  margin-left: 10px;
+}
+.time {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+  margin-right: 10px;
+}
+.input {
+  text-align: center;
+}
+input {
+  display: inline-block;
+  padding: 1rem 1.2rem;
+  width: 80%;
+  margin: auto;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+.option {
+  background-color: rgba(0, 0, 255, 0.212);
+  padding: 1rem;
+  text-align: center;
+}
+.select {
+  padding: 0.4rem 2rem;
+  outline: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+}
+.reload {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+.startDiv {
+  text-align: center;
+}
+.start {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
